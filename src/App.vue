@@ -2,6 +2,7 @@
   <div class="container">
     <search-bar @searchTermChanged="filterTasks" />
     <!-- <tasks :list="shownTasks" /> -->
+    <!--Infymt-->
     <tasks :list="shownTasks" @itemDeleted="setTaskDone" />
     <new-task @taskAdded="addTask" />
     <button @click="showTasksJson">show data</button>
